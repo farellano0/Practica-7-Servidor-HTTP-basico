@@ -1,0 +1,38 @@
+PRÁCTICA 8
+Servidor Http Básico
+
+HTTP:
+Hypertext Transfer Protocol (HTTP) es un protocolo de la capa de aplicación para la transmisión de documentos hipermedia, como HTML. Fue diseñado para la
+comunicación entre los navegadores y servidores web, aunque puede ser utilizado para otros propósitos también.
+
+SERVIDOR HTTP:
+Un servidor HTTP es una pieza de software que comprende URLs (direcciones web) y HTTP (el protocolo que tu navegador usa para ver las páginas web). Tiene muchas partes encargadas del control sobre cómo tienen acceso los usuarios a los archivos.
+
+FORMATO DEL PAQUETE HTTP:
+En las versiones del protocolo HTTP/1.1 y anteriores los mensajes eran de formato texto y eran totalmente comprensibles directamente por una persona. 
+En HTTP/2, los mensajes estan estructurados en un nuevo formato binario y las tramas permiten la compresión de las cabeceras y su multiplexación.
+
+HTTP REQUEST:
+Las HTTP request son un conjunto de métodos de solicitud que indican la acción que se debe realizar para un recurso determinado. Estos métodos a veces son llamados HTTP verbs. Cada método 
+implementa una semántica diferente pero comparten algunas características como la seguridad de la solicitud o el almacenamiento del caché.
+
+        GET: Solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
+        HEAD: Pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
+        POST: Se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
+        PUT: Reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
+        DELETE: Borra un recurso en específico.
+        CONNECT: Establece un túnel hacia el servidor identificado por el recurso.
+        OPTIONS: Es utilizado para describir las opciones de comunicación para el recurso de destino.
+        TRACE: Realiza una prueba de bucle de retorno de mensaje a lo largo de la ruta al recurso de destino.
+        PATCH: Es utilizado para aplicar modificaciones parciales a un recurso.
+
+HTTP RESPONSE:
+Las HTTP response son los mensajes que envía el servidor al cliente tras haber recibido una petición o HTTP request. Es compuesto por un protocolo, un status code, un header y un body.
+
+PUERTO TCP:
+Los puertos TCP permiten la conexión entre dos dispositivos a tráves de internet u otras redes. Para que los paquetes de datos puedan dar con un entrada en el ordenador o servidor del otro 
+lado de la conexión, debe haber puertos abiertos. Los puertos están numerados de manera consecutiva de 0 a 65 536. Algunos de estos números están estandarizados y se asignan a determinadas 
+aplicaciones. Estos puertos estándar también se llaman puertos bien conocidos o well-known ports, ya que los números de identificación son fijos..
+
+MÉTODOS HTTP:
+Los métodos HTTP permiten comunicar al servidor lo que se quiere realizar con un resource bajo una URL. Los métodos más importantes de HTTP son POST, GET, PUT, DELETE y HEAD.
